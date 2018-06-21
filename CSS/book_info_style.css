@@ -1,0 +1,31 @@
+table {
+	border-collapse: collapse;
+	width:100%;
+}
+th.t_top {
+    border-top: #FFA400 4px solid;
+}
+th {
+	border-bottom: #07070707 1px dotted;
+	text-align: left;
+	padding: 10px;
+	font-weight: normal;
+}
+td.t_top {
+	border-top: #FFA400 4px solid;
+}
+td {
+	border-bottom: #000000 1px dotted;
+	text-align: left;
+	padding: 10px;
+}
+tr:hover {
+    background: #3D80DF;
+    color: #FFFFFF;
+}
+
+
+h3#day{
+	background-color :rgb(255, 118, 27);
+	color:(0, 0, 0);
+}

@@ -1,0 +1,31 @@
+body>div {
+    position: relative;
+    width: 320px;
+    height: 240px;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 240px;
+}
+
+div#inner {
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 180px;
+    border: 30px solid rgba(64, 64, 64, 0.5);
+}
+
+div#redline {
+    position: absolute;
+    top: 120px;
+    width: 320px;
+    height: 2px;
+    background-color: rgba(255, 0, 0, 0.3);
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>book_registor</title>
+    <link rel="stylesheet" href="CSS/book_style.css">
+    <link rel="stylesheet" type=text/css href="barcode_reader/camera_style.css">
+    <script type="text/javascript" src="barcode_reader/device_check.js"></script>
+</head>
+
+<body>
+    <a href="top.php">戻る</a>
+    <h2>書籍登録ページ</h2>
+    <div id="which_device"></div>
+    <script type="text/javascript" src="barcode_reader/zbar-main.js"></script>
+    <script type="text/javascript" src="barcode_reader/search_BookData.js"></script>
+    <form name="myform"></form>
+    ISBNコードを入力してください
+    <br>
+    <input type="text" name="ISBN_code_form" id="ISBN">
+    <input type="button" value="登録" onclick="registor()">
+    <script type="text/javascript" src="barcode_reader/ISBNReader.js"></script>
+</body>
+
+</html>
